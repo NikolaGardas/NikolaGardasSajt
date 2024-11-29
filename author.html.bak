@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="mailto:nikola.gardas.144.21@ict.edu.rs" />
+    <meta
+      name="keywords"
+      content="Author, Coding, School, Web design, Web developing, Learning"
+    />
+    <meta
+      name="description"
+      content="Meet our esteemed author, a literary architect who weaves narratives that transport readers to worlds both familiar and fantastical. With a unique voice and a passion for storytelling, the author crafts tales that resonate with emotion, captivate the imagination, and linger in the reader's mind long after the final page has been turned. Dive into the author's portfolio to explore a diverse tapestry of genres, from heartwarming dramas to pulse-pounding adventures. "
+    />
+    <meta name="copyright" content="All rights Reserved" />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png" />
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet"/>
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Scuderia Ferrari Formula 1</title>
+</head>
+<body>
+    <header class="d-flex-between w-80-center">
+        <div id="logo" class="d-flex-start">
+            <h1><a href="#">
+                <img src="assets/img/logo.png" alt="Ferrari Scuderia"/>
+            </a></h1>
+            <div id="logo-name">
+                <h2>Scuderia Ferrari</h2>
+            </div>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="racing.html">Racing</a></li>
+                <li><a href="team.html">Our team</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="author.html"  class="active-link">Author</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="author-cover" class="cover">
+            <div class="cover-shadow">
+                <h3 class="headings-font">Author of the site</h3>
+            </div>
+        </div>
+        <div class="w-80-center cursive-heading">
+            <h2 class="handwriting ">Meet our author</h2>
+        </div>
+        <div class="w-80-center d-flex-between" id="author-block">
+            <div class="block">
+                <h4 class="handwriting">Name</h4>
+                <p>Nikola Gardaš</p>
+                <h4 class="handwriting" >Index Number</h4>
+                <p>144&#47;21</p>
+                <h4 class="handwriting">Education</h4>
+                <p>Technical school Šabac</p>
+                <h4 class="handwriting">About me</h4>
+                <p>As a web design student, I specialize in creating dynamic and user-friendly websites with a focus on HTML and CSS. My portfolio showcases projects that highlight my proficiency in both front-end design and back-end functionality.</p>
+            </div>
+            <div class="block">
+                <figure>
+                    <img src="assets/img/author-image.jpg" alt="Author"/>
+                </figure>
+            </div>
+        </div>
+        <div class="w-80-center cursive-heading">
+            <h2 class="handwriting ">Eager to continually improve web design skills...</h2>
+        </div>
+    </main>
+    <footer class="d-flex-between">
+        <div class="footer-block">
+            <ul>
+                <li><a href="sitemap.xml">Sitemap</a></li>
+                <li><a href="rss"></a>RSS</li>
+                <li><a href="robots.txt">Robots</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
+            </ul>
+        </div>
+        <div class="footer-block">
+            <p>Design by <span class="red-text">Nikola Gardaš</span> &copy; All Rights Reserved</p>
+        </div>
+        <nav id="footer-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="racing.html">Racing</a></li>
+                <li><a href="team.html">Our team</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="author.html">Author</a></li>
+            </ul>
+        </nav>   
+        
+    </footer>
+</body>
+</html>
